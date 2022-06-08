@@ -56,6 +56,8 @@ for n = 1:4                 % do 4 lots of the recurrence pattern
     
     b(x, y) = x;
     
+    b(x) = x;
+    
     % Move the ant to the next pixel
     x += dir_x;
     y += dir_y;
