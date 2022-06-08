@@ -48,6 +48,8 @@ for n = 1:4                 % do 4 lots of the recurrence pattern
     
     board(x, y) = !p * 63;
 
+    board(x, y) = !p * 63
+
     % Move the ant to the next pixel
     x += dir_x;
     y += dir_y;
