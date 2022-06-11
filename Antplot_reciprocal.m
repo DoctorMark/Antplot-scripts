@@ -42,7 +42,7 @@ for n = 1:4                 % do 4 lots of the recurrence pattern
     dir_y = s * tmp;
 
     % If we're still on the board, set the pixel colour
-    if ((x > 0) & (x <= E) & (y > 0) & (y <= E))
+    if (x > 0) & (x <= E) & (y > 0) & (y <= E)
       board(x, y) = ~p * 63;
     endif
 
